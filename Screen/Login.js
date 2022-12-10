@@ -139,6 +139,14 @@ const styles = StyleSheet.create({
     borderColor: "#B9B9B9",
     marginTop: 5,
     width: 55,
+    shadowColor: "#6C4AB6",
+    shadowOffset: {
+	    width: 0,
+	    height: 5,
+    },
+    shadowOpacity: 0.8,
+    shadowRadius: 6.27,
+    elevation: 12,
   },
   input: {
     backgroundColor: "white",
@@ -149,6 +157,14 @@ const styles = StyleSheet.create({
     borderColor: "#B9B9B9",
     marginTop: 5,
     width: 260,
+    shadowColor: "#6C4AB6",
+    shadowOffset: {
+	    width: 0,
+	    height: 5,
+    },
+    shadowOpacity: 0.8,
+    shadowRadius: 6.27,
+    elevation: 12,
   },
   buttonContainer: {
     width: "60%",
@@ -165,7 +181,7 @@ const styles = StyleSheet.create({
   },
   buttonOutline: {
     backgroundColor: "white",
-    marginTop: 5,
+    marginTop: 8,
     borderColor: "#6C4AB6",
     borderWidth: 2,
   },
