@@ -63,7 +63,6 @@ const LoginScreen = () => {
 
   return (
     <KeyboardAvoidingView style={styles.container} behavior="padding">
-      {/* <Text style={styles.title}>Notes App</Text> */}
       <View>
         <Image
           source={require("../assets/img/gambar.png")}
@@ -79,7 +78,7 @@ const LoginScreen = () => {
             placeholder="enter your email"
             value={email}
             onChangeText={(text) => setEmail(text)}
-            autoCapitalize = 'none'
+            autoCapitalize="none"
             style={styles.input}
           />
         </View>
@@ -91,7 +90,7 @@ const LoginScreen = () => {
             placeholder="enter your password"
             value={password}
             onChangeText={(text) => setPassword(text)}
-            autoCapitalize = 'none'
+            autoCapitalize="none"
             style={styles.input}
             secureTextEntry
           />
