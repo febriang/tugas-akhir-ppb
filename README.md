@@ -4,4 +4,4 @@ Nama  : Febrian Giovanni <br>
 Kelas : IK-2D <br>
 NIM   : 3.34.21.3.10
 
-![notes](https://user-images.githubusercontent.com/116758794/206826687-91e03fe6-2710-45bc-b18d-d995e47f33a2.jpg)
+![ppb](https://user-images.githubusercontent.com/116758794/206842210-0f9b281a-45c5-4e99-a906-6b6971c787a3.jpg)
