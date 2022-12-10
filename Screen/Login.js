@@ -72,7 +72,7 @@ const LoginScreen = () => {
       <View style={styles.inputContainer}>
         <View style={{ flexDirection: "row" }}>
           <View style={styles.inputLogo}>
-            <MaterialCommunityIcons name="email" size={24} color="#7F8487" />
+            <MaterialCommunityIcons name="email" size={24} color="#6C4AB6" />
           </View>
           <TextInput
             placeholder="enter your email"
@@ -84,7 +84,7 @@ const LoginScreen = () => {
         </View>
         <View style={{ flexDirection: "row" }}>
           <View style={styles.inputLogo}>
-            <MaterialIcons name="lock" size={24} color="#7F8487" />
+            <MaterialIcons name="lock" size={24} color="#6C4AB6" />
           </View>
           <TextInput
             placeholder="enter your password"
@@ -126,6 +126,7 @@ const styles = StyleSheet.create({
   image: {
     width: 400,
     height: 400,
+    marginLeft: 30
   },
   inputContainer: {
     width: "80%",

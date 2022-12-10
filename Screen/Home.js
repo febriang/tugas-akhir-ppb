@@ -23,6 +23,7 @@ export default function App() {
       .signOut()
       .then(() => {
         navigation.replace("LoginPage");
+        console.log("You're already logout");
       })
       .catch((error) => alert(error.message));
   };
